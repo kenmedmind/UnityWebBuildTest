@@ -56,9 +56,9 @@
       var loaderUrl = buildUrl + "/Build.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/Build.data.gz",
-        frameworkUrl: buildUrl + "/Build.framework.js.gz",
-        codeUrl: buildUrl + "/Build.wasm.gz",
+        dataUrl: buildUrl + "sha256:9d9e57025b7f5b4272389d874e61cb52e32097fb1e0646d83cc882307a8df837",
+        frameworkUrl: buildUrl + "/Build.framework.js",
+        codeUrl: buildUrl + "sha256:fdcc4dfc2340a77e5163eb40429621279575782f97e12b3893d3134f5d8ddd20",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "medmind",
         productName: "Rabi",
@@ -124,6 +124,5 @@
       document.body.appendChild(script);
 
     </script>
-    <script src="Build/Build.loader.js"></script>
   </body>
 </html>
